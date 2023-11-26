@@ -10,6 +10,8 @@
 [ダウンロードリンク](https://raw.githubusercontent.com/belltailjp/jleague-all-players-atok-dictionary/master/J%E3%83%AA%E3%83%BC%E3%82%B0%E6%AD%B4%E4%BB%A3%E5%85%A8%E9%81%B8%E6%89%8BATOK%E5%A4%89%E6%8F%9B%E8%BE%9E%E6%9B%B8.txt)で開いた辞書ファイルをブラウザのメニューから保存する。
 （Google Chromeの場合、ファイル → ページを別名で保存）
 
+IMEソフトウェアによっては同じ内容の[UTF-8版](https://raw.githubusercontent.com/belltailjp/jleague-all-players-atok-dictionary/master/J%E3%83%AA%E3%83%BC%E3%82%B0%E6%AD%B4%E4%BB%A3%E5%85%A8%E9%81%B8%E6%89%8BATOK%E5%A4%89%E6%8F%9B%E8%BE%9E%E6%9B%B8_utf8.txt)も利用可能です。
+
 
 ## ATOK登録方法
 
@@ -22,6 +24,7 @@ https://support.justsystems.com/faq/1032/app/servlet/qadoc?QID=033072
 
 
 他のIMEソフトウェアとの互換性について
+* Android版ATOKにはインポート可能であることが報告されています
 * Google日本語入力ではインポート可能です
 * Microsoft IMEは未確認です
 * Macの標準日本語入力アプリでは未確認です
@@ -43,10 +46,8 @@ Jリーグのデータにおける選手名の漢字表記および英語表記�
 ### 網羅性について
 
 Jリーグに選手登録歴のある選手のうち、基本的に以下のような選手を除いてほとんどの選手が登録されています。
-* 日本語表記での名前がすべてカタカナからなる選手
-* 異なる登録名で登録されたことのある選手
-* その他、ChatGPTが処理できなかった名前の選手
-
+* 日本語表記での名前がすべてカタカナからなる選手を除く
+* その他、ChatGPTが処理できなかった名前の選手を除く
 
 
 ## 誤りを見つけた場合
@@ -59,5 +60,5 @@ Jリーグに選手登録歴のある選手のうち、基本的に以下のよ�
 
 
 ## 更新履歴
-* [2023/11/27] 一部誤りの修正、曖昧な名前（複数の名前で登録歴がある選手）を一部対応
+* [2023/11/27] 一部誤りの修正、曖昧な名前（複数の名前で登録歴がある選手）を一部対応。UTF-8版を提供。
 * [2023/11/25] 初版
